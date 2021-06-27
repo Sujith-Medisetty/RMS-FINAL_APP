@@ -88,11 +88,6 @@ response.setHeader ("Expires", "0"); //prevents caching at the proxy server
   </ul>
     <table class="table table-borderless">
         <thead>
-        <tr>
-          <td scope="col" ><%=session.getAttribute("optionalGST")%></td>
-        <td></td>
-        <td></td>
-        </tr>
             <tr>
                 <td scope="col">Date</td>
                 <td scope="col">:</td>
